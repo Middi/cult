@@ -1,0 +1,18 @@
+@import "normalise";
+@import "colors";
+@import "typography";
+@import "buttons";
+@import "utilities";
+
+body {background: $background}
+
+section {
+    max-width: 740px;
+    margin: 0 auto;
+}
+
+article {padding: 0 20px}
+
+footer {text-align: center}
+
+@import "media-queries";
