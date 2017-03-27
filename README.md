@@ -1,4 +1,4 @@
-# cult
+# Cult
 A Typography Framework for a Quick Start.
 
 
