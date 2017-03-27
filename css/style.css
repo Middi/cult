@@ -115,8 +115,8 @@ em {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease; }
   .btn:active {
-    -webkit-transform: scale(0.94);
-            transform: scale(0.94); }
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98); }
 
 .btn-outline {
   color: #0078ca;
