@@ -9,9 +9,9 @@ body {background: $background}
 section {
     max-width: 740px;
     margin: 0 auto;
-    padding: 0 20px
+    padding: 20px;
 }
 
-footer {text-align: center}
+article {margin: 48px 0}
 
 @import "media-queries";
