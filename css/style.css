@@ -48,29 +48,26 @@ body {
 
 h1, h2, h3, h4 {
   font-family: 'Open Sans';
-  margin: 0 0 0.5em;
   line-height: 1.2;
-  font-weight: 700; }
+  font-weight: 700;
+  margin-bottom: 0.8rem; }
 
 h1 {
   font-size: 3.998em;
   margin-top: 1rem;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 1rem; }
 
 h2 {
   font-size: 2.827em;
-  margin-top: 1rem;
-  margin-bottom: 0.5rem; }
+  margin-top: 1rem; }
 
 h3 {
   font-size: 1.999em;
-  margin-top: 1rem;
-  margin-bottom: 0.5rem; }
+  margin-top: 1rem; }
 
 h4 {
   font-size: 1.414em;
-  margin-top: 1rem;
-  margin-bottom: 0.5rem; }
+  margin-top: 1rem; }
 
 p {
   margin-bottom: 1.3em; }
@@ -103,7 +100,7 @@ em {
 
 i {
   font-size: 12px;
-  color: #fc2d23; }
+  color: #f51523; }
 
 .btn {
   border: none;
@@ -163,9 +160,8 @@ article {
 /*=============================================
 =                 MEDIA QUERIES               =
 =============================================*/
-/* -- BREAK 2 -- */
+/* -- BREAK 1 -- */
 @media all and (max-width: 800px) {
   html {
     font-size: 18px;
-    line-height: 1.4;
-    /* This means 20px */ } }
+    line-height: 1.4; } }
