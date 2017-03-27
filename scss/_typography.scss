@@ -1,8 +1,11 @@
-/*=============================================
-=                 TYPOGRAPHY                  =
-=============================================*/
+// --------------------------------------------------
+// Typography
+// --------------------------------------------------
 
-// Sets Default Font Size //
+
+//--------------------------------
+// Sets Default Font Size
+//--------------------------------
 
 html {font-size: 21px}
 
@@ -12,6 +15,11 @@ body {
   color: $text;
 }
 
+
+//--------------------------------
+// Headings
+//--------------------------------
+
 h1, h2, h3, h4 {
   font-family: 'Open Sans';
   margin: 0 0 0.5em;
@@ -20,20 +28,35 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 3.998em;
-  margin: 0 0 0.3em;
+  font-size: 3.998em; 
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
-h2 {font-size: 2.827em}
+h2 {
+  font-size: 2.827em;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
 
-h3 {font-size: 1.999em}
+h3 {
+  font-size: 1.999em;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
 
-h4 {font-size: 1.414em}
+h4 {
+  font-size: 1.414em;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
 
 p {margin-bottom: 1.3em;}
 
 
-// ---- Links ---- //
+//--------------------------------
+// Links
+//--------------------------------
 
 a {
     text-decoration: none;
@@ -54,7 +77,9 @@ a:after {
 a:hover {color: lighten($text, 10)}
 
 
-// ---- Other Tags ---- //
+//--------------------------------
+// Misc Tags
+//--------------------------------
 
 small {font-size: 0.707em}
 
@@ -65,7 +90,9 @@ em {font-style: italic;}
 span {}
 
 
-// ---- ICONS ---- //
+//--------------------------------
+// Icons
+//--------------------------------
 
 i {
 	font-size:  12px;
