@@ -1,4 +1,4 @@
-[cult](https://richardmiddleton.me/Cult)
+# [cult](https://richardmiddleton.me/Cult)
 
 A Typography Framework for a Quick Start.
 
